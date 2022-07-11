@@ -1,0 +1,63 @@
+/*===== Overrides for Ext 5.0.x component styles when displayed in the canvas =====*/
+
+@import '../../../../resources/scss/variables';
+
+$bg-color: #FFF; //to match browser default bg color
+
+* {
+    cursor: default !important;
+    -webkit-user-select: none !important;
+}
+
+html {
+    @include background-blueprint-grid(
+        $bg-color,
+        $border-width: 1px,
+        $foreground-color: $transparent,
+        $foreground-color-alt: darken($bg-color, 3),
+        $width-alt: 10px
+    );
+}
+
+
+.xds-grid-5 {
+    background-image: url(../../../resources/images/grid/5.png) !important;
+}
+
+.xds-grid-10 {
+    background-image: url(../../../resources/images/grid/10.png) !important;
+}
+
+.xds-grid-15 {
+    background-image: url(../../../resources/images/grid/15.png) !important;
+}
+
+.xds-grid-20 {
+    background-image: url(../../../resources/images/grid/20.png) !important;
+}
+
+
+.x-html-editor-wrap {
+    // Since the HtmlEditor dtype creates no document in its iframe, we need to
+    // give it a background so it's not transparent in the canvas
+    > iframe {
+        background: $bg-color;
+    }
+
+    // Prevent mouse events from affecting the controls or getting swallowed by the iframe
+    pointer-events: none;
+}
+
+.xds-tpl {
+    // Ext 5.0 doesn't use a CSS reset
+    margin: 0;
+}
+
+.x-img {
+    &.xds-img-unset {
+        background: url(../../../resources/images/image.png) no-repeat center !important;
+    }
+    &.xds-img-shrink {
+        background-size: contain !important;
+    }
+}
