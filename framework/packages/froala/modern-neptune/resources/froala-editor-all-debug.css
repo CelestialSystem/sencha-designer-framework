@@ -1,0 +1,320 @@
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:36 */
+.fi:before {
+    font-family: 'Font Awesome 5 Free' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-align-center:before {
+    content: '\f037' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-align-justify:before {
+    content: '\f039' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-align-left:before {
+    content: '\f036' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-align-right:before {
+    content: '\f038' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-arrow-down:before {
+    content: '\f063' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-arrow-left:before {
+    content: '\f060' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-arrow-right:before {
+    content: '\f061' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-arrow-up:before {
+    content: '\f062' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-bars:before {
+    content: '\f0c9' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-caret-down:before {
+    content: '\f0d7' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-caret-left:before {
+    content: '\f0d9' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-caret-right:before {
+    content: '\f0da' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-caret-up:before {
+    content: '\f0d8' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-check:before {
+    content: '\f00c' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-chevron-down:before {
+    content: '\f078' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-chevron-left:before {
+    content: '\f053' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-chevron-right:before {
+    content: '\f054' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-chevron-up:before {
+    content: '\f077' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-edit:before {
+    content: '\f044' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-ellipsis-h:before {
+    content: '\f141' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-ellipsis-v:before {
+    content: '\f142' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-filter:before {
+    content: '\f0b0' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-gear:before {
+    content: '\f013' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-group:before {
+    content: '\f0c0' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-home:before {
+    content: '\f015' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-lock:before {
+    content: '\f023' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-minus:before {
+    content: '\f068' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-pencil:before {
+    content: '\f303' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-plus:before {
+    content: '\f067' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-print:before {
+    content: '\f02f' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-redo:before {
+    content: '\f021' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-refresh:before {
+    content: '\f021' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-save:before {
+    content: '\f0c7' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-search:before {
+    content: '\f002' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-star:before {
+    content: '\f005' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-times:before {
+    content: '\f00d' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-trash:before {
+    content: '\f2ed' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-th:before {
+    content: '\f00a' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-th-list:before {
+    content: '\f00b' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-undo:before {
+    content: '\f0e2' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-unlock:before {
+    content: '\f09c' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/ext/modern/theme-neptune/sass/etc/font-icons.scss:11 */
+.fi-user:before {
+    content: '\f007' !important;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/src/froala/Editor.scss:1 */
+.x-froala {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/src/froala/Editor.scss:7 */
+.x-froala .fr-wrapper {
+    flex: 1;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:20 */
+.x-froala.fr-box.fr-basic .fr-wrapper {
+    background-color: #fff;
+    border-color: #ccc;
+    border-style: solid;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:25 */
+.x-froala.fr-box.fr-basic .fr-wrapper .fr-element {
+    color: #414141;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:31 */
+.x-froala .second-toolbar {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: #fff;
+    border-color: #ccc;
+    border-style: solid;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:38 */
+.x-froala .fr-toolbar,
+.x-froala .fr-popup,
+.x-froala .fr-modal {
+    background-color: #fff;
+    border-color: #ccc;
+    border-style: solid;
+    color: #414141;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:46 */
+.x-froala .fr-toolbar .fr-newline,
+.x-froala .fr-popup .fr-newline,
+.x-froala .fr-modal .fr-newline {
+    background: #ccc;
+    height: 2px;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:52 */
+.x-froala .fr-toolbar .fr-more-toolbar,
+.x-froala .fr-toolbar .fr-more-toolbar.fr-expanded,
+.x-froala .fr-popup .fr-more-toolbar,
+.x-froala .fr-popup .fr-more-toolbar.fr-expanded,
+.x-froala .fr-modal .fr-more-toolbar,
+.x-froala .fr-modal .fr-more-toolbar.fr-expanded {
+    background-color: #f5f5f5;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:57 */
+.x-froala .fr-toolbar .fr-command.fr-btn,
+.x-froala .fr-popup .fr-command.fr-btn,
+.x-froala .fr-modal .fr-command.fr-btn {
+    color: #157fcc;
+    font-size: 13px;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:61 */
+.x-froala .fr-toolbar .fr-command.fr-btn.fr-btn-hover:not(.fr-table-cell),
+.x-froala .fr-toolbar .fr-command.fr-btn:not(.fr-table-cell):focus,
+.x-froala .fr-toolbar .fr-command.fr-btn.fr-expanded:not(.fr-table-cell),
+.x-froala .fr-popup .fr-command.fr-btn.fr-btn-hover:not(.fr-table-cell),
+.x-froala .fr-popup .fr-command.fr-btn:not(.fr-table-cell):focus,
+.x-froala .fr-popup .fr-command.fr-btn.fr-expanded:not(.fr-table-cell),
+.x-froala .fr-modal .fr-command.fr-btn.fr-btn-hover:not(.fr-table-cell),
+.x-froala .fr-modal .fr-command.fr-btn:not(.fr-table-cell):focus,
+.x-froala .fr-modal .fr-command.fr-btn.fr-expanded:not(.fr-table-cell) {
+    background: #ebebeb;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:67 */
+.x-froala .fr-toolbar .fr-command.fr-btn.fr-open:not(:hover):not(:focus):not(:active),
+.x-froala .fr-popup .fr-command.fr-btn.fr-open:not(:hover):not(:focus):not(:active),
+.x-froala .fr-modal .fr-command.fr-btn.fr-open:not(:hover):not(:focus):not(:active) {
+    background: #f5f5f5;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:72 */
+.x-froala .fr-toolbar .fr-command.fr-btn.fr-dropdown:after,
+.x-froala .fr-popup .fr-command.fr-btn.fr-dropdown:after,
+.x-froala .fr-modal .fr-command.fr-btn.fr-dropdown:after {
+    border-top-color: #157fcc;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:76 */
+.x-froala .fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-active,
+.x-froala .fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-active:hover,
+.x-froala .fr-popup .fr-command.fr-btn.fr-dropdown.fr-active,
+.x-froala .fr-popup .fr-command.fr-btn.fr-dropdown.fr-active:hover,
+.x-froala .fr-modal .fr-command.fr-btn.fr-dropdown.fr-active,
+.x-froala .fr-modal .fr-command.fr-btn.fr-dropdown.fr-active:hover {
+    background: #ebebeb;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:80 */
+.x-froala .fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-active:after,
+.x-froala .fr-popup .fr-command.fr-btn.fr-dropdown.fr-active:after,
+.x-froala .fr-modal .fr-command.fr-btn.fr-dropdown.fr-active:after {
+    border-bottom-color: #157fcc;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:85 */
+.x-froala .fr-toolbar .fr-command.fr-btn + .fr-dropdown-menu,
+.x-froala .fr-popup .fr-command.fr-btn + .fr-dropdown-menu,
+.x-froala .fr-modal .fr-command.fr-btn + .fr-dropdown-menu {
+    background: #fff;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:91 */
+.x-froala .fr-toolbar .fr-command.fr-btn + .fr-dropdown-menu .fr-dropdown-wrapper .fr-dropdown-content ul.fr-dropdown-list li a.fr-active,
+.x-froala .fr-toolbar .fr-command.fr-btn + .fr-dropdown-menu .fr-dropdown-wrapper .fr-dropdown-content ul.fr-dropdown-list li a:hover,
+.x-froala .fr-popup .fr-command.fr-btn + .fr-dropdown-menu .fr-dropdown-wrapper .fr-dropdown-content ul.fr-dropdown-list li a.fr-active,
+.x-froala .fr-popup .fr-command.fr-btn + .fr-dropdown-menu .fr-dropdown-wrapper .fr-dropdown-content ul.fr-dropdown-list li a:hover,
+.x-froala .fr-modal .fr-command.fr-btn + .fr-dropdown-menu .fr-dropdown-wrapper .fr-dropdown-content ul.fr-dropdown-list li a.fr-active,
+.x-froala .fr-modal .fr-command.fr-btn + .fr-dropdown-menu .fr-dropdown-wrapper .fr-dropdown-content ul.fr-dropdown-list li a:hover {
+    background: #ebebeb;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:100 */
+.x-froala .fr-toolbar .fr-command.fr-btn i,
+.x-froala .fr-popup .fr-command.fr-btn i,
+.x-froala .fr-modal .fr-command.fr-btn i {
+    color: #157fcc;
+    font-size: 13px;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:105 */
+.x-froala .fr-toolbar .fr-command.fr-btn:hover,
+.x-froala .fr-popup .fr-command.fr-btn:hover,
+.x-froala .fr-modal .fr-command.fr-btn:hover {
+    background: rgba(17, 17, 17, 0.075);
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:110 */
+.x-froala .fr-toolbar.fr-top,
+.x-froala .fr-popup.fr-top,
+.x-froala .fr-modal.fr-top {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+}
+/* /Users/celsysadmin/workspace/SDK/packages/froala-editor/sass/var/froala/Editor.scss:116 */
+.x-froala .fr-toolbar .fr-dropdown-content .fr-command i,
+.x-froala .fr-popup .fr-dropdown-content .fr-command i,
+.x-froala .fr-modal .fr-dropdown-content .fr-command i {
+    color: #157fcc;
+    font-size: 13px;
+}

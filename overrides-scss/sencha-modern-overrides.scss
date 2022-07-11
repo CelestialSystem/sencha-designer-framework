@@ -1,0 +1,177 @@
+/*===== Overrides for Sencha Touch component styles when displayed in the canvas =====*/
+
+/*
+ * Canvas scaling scales the documentElement, so we want to animate it
+ */
+
+@import '../../../../resources/scss/variables';
+
+$canvas-color: $base-color;
+$scrollbar-size: 6px;
+$scrollbar-inset: 6px;
+
+
+* {
+    cursor: default !important;
+    -webkit-user-select: none !important;
+}
+
+body {
+    border: 1px solid color-by-background($canvas-color, 15);
+
+
+    // Hacky... Would be cool if we could transform the iframe instead of HTML...
+    @include background-blueprint-grid(
+            lighten($canvas-color, 5),
+        $border-width: 1px,
+        $foreground-color: $transparent,
+        $foreground-color-alt: $canvas-color,
+        $width-alt: 10px
+    );
+}
+
+
+/*
+ * Custom scroll view that uses native scrollbars - see Ext.scroll.View override
+ */
+.x-scroll-bar-grid-wrapper {
+    position: absolute;
+    z-index: 999;
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: $scrollbar-inset;
+    bottom: $scrollbar-inset;
+    overflow: auto;
+
+    opacity: 0;
+    @include transition(opacity .2s);
+
+    // Don't capture mouse events for the body area (they still work on the scrollbar itself)
+    pointer-events: none;
+
+    &::-webkit-scrollbar {
+        width: $scrollbar-size;
+        height: $scrollbar-size;
+    }
+    &::-webkit-scrollbar-track {
+        background-color: transparent;
+        @include box-shadow(none);
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba(#000, 0.15);
+        @include border-radius($scrollbar-size / 2);
+        @include box-shadow(none);
+    }
+    &::-webkit-scrollbar-track-piece {
+        background-color: transparent;
+    }
+}
+.x-scroll-view:hover > .x-scroll-bar-grid-wrapper {
+    opacity: 1;
+}
+
+
+/*
+ * Allow mouse events to pass through the mask for sheets etc. so the user can select
+ * components behind it.
+ */
+.x-mask {
+    pointer-events: none;
+}
+
+
+/*
+ * Hidden form fields: make sure they have dimensions (not display:none) so the film will be
+ * positioned correctly, but force height to zero so they don't take up space.
+ */
+.x-field-xdhidden {
+    overflow: hidden;
+    height: 0 !important;
+    min-height: 0 !important;
+    border: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+/*
+ * Add a background image to the Map component, to let the user know visually that it's a map
+ * even if the maps API has not yet loaded and displayed an actual map.
+ */
+.x-map {
+    background-image: url(framework/resources/themes/images/default/pictos/maps.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+
+/*
+ * Styling for custom audio placeholder controls
+ */
+.x-audio {
+    @include display-box;
+    @include box-orient(vertical);
+    @include box-pack(center);
+    padding: 4px;
+
+    > .controls {
+        display: -webkit-box;
+        -webkit-box-orient: horizontal;
+        -webkit-box-align: center;
+        overflow: hidden;
+        color: #FFF;
+        background: -webkit-linear-gradient(top, #808080, #565656 50%, #3a3a3a 50%, #323232);
+        border-radius: 3px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4), inset 0 0 2px rgba(255, 255, 255, 0.5);
+        padding: 4px 16px;
+
+        > .play {
+            margin-right: 12px;
+            width: 21px;
+            height: 21px;
+            background: #FFF;
+            -webkit-mask: url(framework/resources/themes/images/default/pictos/play1.png) no-repeat;
+            -webkit-mask-size: cover;
+        }
+        > .time {
+            font-size: 18px;
+            text-shadow: 0 -2px 0px rgba(0, 0, 0, .5);
+        }
+        > .slider {
+            -webkit-box-flex: 1;
+            margin: 0 12px;
+            height: 11px;
+            background: white;
+            border-radius: 11px;
+            box-shadow: inset 0 2px 2px rgba(0, 0, 0, .2);
+
+            &:before {
+                content: "";
+                display: block;
+                position: relative;
+                background: -webkit-linear-gradient(top left, white, #CCC);
+                width: 21px;
+                height: 21px;
+                border-radius: 10px;
+                top: -5px;
+                left: 5px;
+                box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+            }
+        }
+    }
+}
+
+.x-img {
+    &.xds-img-error {
+        background: url(../../../resources/images/no_image.png) no-repeat center !important;
+    }
+    &.xds-img-unset {
+        background: url(../../../resources/images/image.png) no-repeat center !important;
+    }
+    &.xds-img-shrink {
+        background-size: contain !important;
+    }
+}
